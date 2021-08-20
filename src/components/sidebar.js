@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import "./sidebar.css";
-import projectTitle from "../project_title.png";
+import projectTitle from "../images/project_title.png";
 
 let SidebarContext = React.createContext();
 
