@@ -20,7 +20,8 @@
     border: none;
     outline: none;
     background-color: #f9f9f9;
-    z-index: -1;
+    cursor: pointer;
+    z-index: 0;
 }
 
 .sidebar-open-button svg {
