@@ -23,7 +23,7 @@ const SidebarButton = function () {
 
 const SidebarListItem = function ({ path, title }) {
     return (
-        <a href="#" className="sidebar-list-item">
+        <button type="button" className="sidebar-list-item">
             <svg
                 stroke="currentColor"
                 fill="currentColor"
@@ -36,7 +36,7 @@ const SidebarListItem = function ({ path, title }) {
                 <path d={path}></path>
             </svg>
             <h3 className="sidebar-item-text">{title}</h3>
-        </a>
+        </button>
     );
 };
 

@@ -5,6 +5,7 @@
     display: flow-root;
     transform: translateX(-100%);
     transition: all 0.4s;
+    overflow: hidden;
 }
 
 .sidebar-open {
@@ -55,6 +56,9 @@
     padding: 1rem 3rem;
     text-decoration: none;
     transition: all 0.1s;
+    outline: none;
+    border: none;
+    width: 100%;
 }
 
 .sidebar-list-item:hover {
