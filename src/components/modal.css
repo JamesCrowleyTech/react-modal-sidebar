@@ -32,6 +32,14 @@
 
     background-color: #f9f9f9;
     box-shadow: 0px 0px 0px 2000px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.1s;
+}
+
+.modal-open {
+    visibility: visible;
+    opacity: 1;
 }
 
 .modal-close-button {
